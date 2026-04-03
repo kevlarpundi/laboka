@@ -11,7 +11,7 @@ workflows:
         - ~/.pub-cache
     scripts:
       - name: Get Flutter packages
-        script: ping -t google.com
+        script: flutter packages pub get
       - name: Configure for Windows
         script: flutter config --enable-windows-desktop
       - name: Build Windows
