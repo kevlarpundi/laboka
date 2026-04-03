@@ -2,8 +2,6 @@ workflows:
   my-workflow:
     name: Windows Workflow
     instance_type: windows_x2 # Menggunakan instance windows x2
-    environment:
-      # ...
     scripts:
       - name: Cek Ping ke Google
         script: |
